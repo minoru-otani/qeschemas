@@ -140,8 +140,6 @@ datecode 211101
       <element type="string" name="outdir"/>
       <element type="boolean" name="stress"/>
       <element type="boolean" name="forces"/>
-      <element type="boolean" name="fcp"/>
-      <element type="boolean" name="rism"/>
       <element type="boolean" name="wf_collect" default="false"/>
       <element type="qes:lowhighType" name="disk_io" default="low"/>
       <element type="positiveInteger" name="max_seconds"/>
@@ -151,6 +149,8 @@ datecode 211101
       <element type="double" name="press_conv_thr" default="5e-1"/>
       <element type="qes:lowhighType" name="verbosity" default="low"/>
       <element type="positiveInteger" name="print_every"/>
+      <element type="boolean" name="fcp"/>
+      <element type="boolean" name="rism"/>
     </sequence>
   </complexType>
   <!-- COMMON TYPES -->
