@@ -86,8 +86,8 @@ datecode 211101
       <element type="qes:total_energyType" name="total_energy"/>
       <element type="qes:matrixType" name="forces"/>
       <element type="qes:matrixType" name="stress" minOccurs="0" />
-      <element type="double"         name="FCP_force" minOccurs="0"/>
-      <element type="double"         name="FCP_tot_charge" minOccurs ="0"/>
+      <element type="double"         name="fcp_force" minOccurs="0"/>
+      <element type="double"         name="fcp_tot_charge" minOccurs ="0"/>
     </sequence>
     <attribute type="positiveInteger" name="n_step"/>
   </complexType>
@@ -108,8 +108,8 @@ datecode 211101
       <element type="qes:matrixType" name="forces" minOccurs="0"/>
       <element type="qes:matrixType" name="stress" minOccurs="0" />
       <element type="qes:outputElectricFieldType" name="electric_field" minOccurs="0" />
-      <element type="double"  name="FCP_force" minOccurs="0"/>
-      <element type="double"  name="FCP_tot_charge" minOccurs="0"/>
+      <element type="double"  name="fcp_force" minOccurs="0"/>
+      <element type="double"  name="fcp_tot_charge" minOccurs="0"/>
       <element type="qes:rism3dType" name="rism3d" minOccurs="0" />
       <element type="qes:rismlaueType" name="rismlaue" minOccurs="0" />
     </sequence>
