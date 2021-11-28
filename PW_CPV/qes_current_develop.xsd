@@ -760,9 +760,9 @@ datecode 211101
   <complexType name="esmType">
     <sequence>
       <element type="string" name="bc"/>
-      <element type="positiveInteger" name="nfit"/>
-      <element type="double" name="w"/>
-      <element type="double" name="efield"/>
+      <element type="positiveInteger" name="nfit" minOccurs = "0"/>
+      <element type="double" name="w" minOccurs = "0"/>
+      <element type="double" name="efield" minOccurs = "0"/>
       <element type="double" name="a" minOccurs = "0"/>
       <element type="double" name="zb" minOccurs = "0"/>
       <element type="boolean" name="debug" minOccurs = "0"/>
