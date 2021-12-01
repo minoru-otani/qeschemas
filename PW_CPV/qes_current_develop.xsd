@@ -1055,6 +1055,7 @@ datecode 211101
       <element type="double" name="gatefield_contr" minOccurs="0"/>
       <element type="double" name="vdW_term" minOccurs="0"/>
       <element type="double" name="esol" minOccurs="0"/>
+      <element type="double" name="levelshift_contr" minOccurs="0"/>
     </sequence>
   </complexType>
   <complexType name="band_structureType">
