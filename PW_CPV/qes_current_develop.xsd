@@ -1303,7 +1303,6 @@ datecode 211101
     <simpleContent>
       <extension base="double">
         <attribute type="string" name="Units"/>
-        <attribute type="string" name="UNITS"/>
       </extension>
     </simpleContent>
   </complexType>
